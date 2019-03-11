@@ -1,0 +1,21 @@
+class DefaultVal
+{
+		byte a;
+		short c;
+		int b;
+		long l;
+		float f;
+		double d;
+		char h;
+	public static void main(String args[])
+	{
+		DefaultVal a1=new DefaultVal();
+		System.out.println("BYTE VALUE IS :"+a1.a);
+		System.out.println("SHORT VALUE IS :"+a1.c);
+		System.out.println("INT VALUE IS :"+a1.b);
+		System.out.println("LONG VALUE IS :"+a1.l);
+		System.out.println("FLOAT VALUE IS :"+a1.f);
+		System.out.println("DOUBLE VALUE IS :"+a1.d);
+		System.out.println("CHAR VALUE IS :"+a1.h);	
+	}
+}
